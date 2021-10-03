@@ -4,7 +4,6 @@
 
 import socket
 import random
-import sys
 from threading import Thread
 from datetime import datetime
 from colorama import Fore, Back, init
