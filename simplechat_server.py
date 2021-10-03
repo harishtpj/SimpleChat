@@ -41,7 +41,7 @@ while True:
     clients.add(csock)
     t = Thread(target=listen_client,args=(csock,))
     t.daemon = True
-    t.start
+    t.start()
 
 for cs in clients:
     cs.close()
